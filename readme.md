@@ -7,5 +7,7 @@ https://classes.vedovelli.com.br/
 ```sh
 
 yarn add -D jest @types/jest
+yarn test
+yarn test:watch
 
 ```
