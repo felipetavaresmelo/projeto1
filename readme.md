@@ -77,3 +77,11 @@ Navegar até a pasta do relatório e inicialisar o serviço do relatório de cob
 cd coverage/lcov-report
 httpserver
 ```
+
+### Babel
+
+Instalar dependências:
+
+```sh
+yarn add --dev babel-jest @babel/core @babel/preset-env
+```
