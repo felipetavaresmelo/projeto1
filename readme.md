@@ -33,9 +33,9 @@ MÓDULO 1: INTRODUÇÃO AOS TESTES NO JAVASCRIPT
   - Desenvolver com TDD uma lib para fazer parse de Query String
     -Desenvolver com TDD uma classe para gerenciar um carrinho de compras
 
-## Comandos
+## Notas
 
-### Instalação
+### [Instalação do Jest](https://jestjs.io/docs/getting-started)
 
 Instalação no projeto como dependencia de desenvolvimento:
 
@@ -57,9 +57,13 @@ Inicializar para ficar monitorando os testes e recompilando a cada salvamento de
 yarn test:watch
 ```
 
+### [Prettier](https://prettier.io)
+
+Arquivo `.prettierrc.json` com configurações de formatação de código utilizada com essa extensão.
+
 ### Coverage
 
-Gerar relatórios:
+Gerar relatórios de cobertura de testes:
 
 ```sh
 yarn test --coverage
@@ -78,10 +82,28 @@ cd coverage/lcov-report
 httpserver
 ```
 
-### Babel
+Também pode abrir o index.html diretamente em um browser.
 
-Instalar dependências:
+### [Babel](https://jestjs.io/docs/getting-started#using-babel)
+
+Ferramenta utilizada compilar e resolver questões de compatibilidade de códigos TS modernos com versões antigas do JS.
 
 ```sh
 yarn add --dev babel-jest @babel/core @babel/preset-env
 ```
+
+### [Editor Config](https://editorconfig.org)
+
+Arquivo `.editorconfig` utilizado para customizar formatação de código e uso de plugins já integrado em várias IDEs.
+Utilzado aqui principalmente para configuração da quantidade de espaços em branco nas identações.
+
+### [Lodash](https://lodash.com/docs/4.17.15)
+
+Biblioteca de utilitários, utilizada para find e remove na lista do cart.
+
+```sh
+yarn add lodash
+```
+
+- [find](https://lodash.com/docs/4.17.15#find)
+- [remove](https://lodash.com/docs/4.17.15#remove)
