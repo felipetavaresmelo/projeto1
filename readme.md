@@ -61,6 +61,10 @@ yarn test:watch
 
 Arquivo `.prettierrc.json` com configurações de formatação de código utilizada com essa extensão.
 
+```sh
+yarn add -D prettier
+```
+
 ### Coverage
 
 Gerar relatórios de cobertura de testes:
@@ -99,7 +103,7 @@ Utilzado aqui principalmente para configuração da quantidade de espaços em br
 
 ### [Lodash](https://lodash.com/docs/4.17.15)
 
-Biblioteca de utilitários, utilizada para find e remove na lista do cart.
+Biblioteca de utilitários, utilizada aqui para find e remove na lista do Cart.
 
 ```sh
 yarn add lodash
