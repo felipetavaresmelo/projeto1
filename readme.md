@@ -111,3 +111,11 @@ yarn add lodash
 
 - [find](https://lodash.com/docs/4.17.15#find)
 - [remove](https://lodash.com/docs/4.17.15#remove)
+
+### [Dinero.js](https://dinerojs.com)
+
+Biblioteca para resolver problemas de precisão de valores monetários.
+
+```sh
+yarn add dinero.js
+```
